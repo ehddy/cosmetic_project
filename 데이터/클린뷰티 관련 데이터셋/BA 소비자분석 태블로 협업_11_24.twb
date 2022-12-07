@@ -1,0 +1,1445 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0712.0325                               -->
+<workbook original-version='18.1' source-build='2021.4.9 (20214.22.0712.0325)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1(클린뷰티_적용_최종 데이터셋_EDA용_2022_11_24)' inline='true' name='federated.1yf154z1m30c2g16g5jvx1gp07p1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='클린뷰티_적용_최종 데이터셋_EDA용_2022_11_24' name='excel-direct.1qwy4dt1q1b67217x6hfi0uz2aym'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/dongyokim/main/jupyter/2022:2/cosmetic_project/데이터/최종 데이터셋/클린뷰티_적용_최종 데이터셋_EDA용_2022_11_24.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1qwy4dt1q1b67217x6hfi0uz2aym' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AS7308:no:A1:AS7308:0' header='yes' outcome='6'>
+            <column datatype='string' name='화장품명' ordinal='0' />
+            <column datatype='string' name='브랜드명' ordinal='1' />
+            <column datatype='string' name='브랜드 내 순위' ordinal='2' />
+            <column datatype='string' name='용량' ordinal='3' />
+            <column datatype='integer' name='가격' ordinal='4' />
+            <column datatype='real' name='평점' ordinal='5' />
+            <column datatype='integer' name='만족도' ordinal='6' />
+            <column datatype='integer' name='리뷰 수' ordinal='7' />
+            <column datatype='string' name='카테고리' ordinal='8' />
+            <column datatype='string' name='카테고리 내 순위' ordinal='9' />
+            <column datatype='integer' name='위험도 미정 성분 개수' ordinal='10' />
+            <column datatype='integer' name='낮은 위험도 성분 개수' ordinal='11' />
+            <column datatype='integer' name='중간 위험도 성분 개수' ordinal='12' />
+            <column datatype='integer' name='높은 위험도 성분 개수' ordinal='13' />
+            <column datatype='string' name='키워드 카테고리' ordinal='14' />
+            <column datatype='integer' name='총 성분 개수' ordinal='15' />
+            <column datatype='integer' name='지성 피부에 좋은 성분 개수' ordinal='16' />
+            <column datatype='integer' name='건성 피부에 좋은 성분 개수' ordinal='17' />
+            <column datatype='integer' name='민감성 피부에 좋은 성분 개수' ordinal='18' />
+            <column datatype='integer' name='여드름 피부에 좋은 성분 개수' ordinal='19' />
+            <column datatype='integer' name='지성 피부에 나쁜 성분 개수' ordinal='20' />
+            <column datatype='integer' name='건성 피부에 나쁜 성분 개수' ordinal='21' />
+            <column datatype='integer' name='민감성 피부에 나쁜 성분 개수' ordinal='22' />
+            <column datatype='integer' name='여드름 피부에 나쁜 성분 개수' ordinal='23' />
+            <column datatype='integer' name='아토피 피부에 유해한 성분 개수' ordinal='24' />
+            <column datatype='integer' name='알레르기 유발 성분 개수' ordinal='25' />
+            <column datatype='integer' name='올리브영 선정 유해 성분 개수' ordinal='26' />
+            <column datatype='integer' name='천연 및 유기농 성분 개수' ordinal='27' />
+            <column datatype='integer' name='동물실험을 하지 않는 브랜드' ordinal='28' />
+            <column datatype='integer' name='동물성 성분 개수' ordinal='29' />
+            <column datatype='integer' name='공병 수거를 하는 브랜드' ordinal='30' />
+            <column datatype='integer' name='A 조건 충족 여부' ordinal='31' />
+            <column datatype='integer' name='B 조건 충족 여부' ordinal='32' />
+            <column datatype='integer' name='C 조건 충족 여부' ordinal='33' />
+            <column datatype='integer' name='D 조건 충족 여부' ordinal='34' />
+            <column datatype='integer' name='E 조건 충족 여부' ordinal='35' />
+            <column datatype='integer' name='F 조건 충족 여부' ordinal='36' />
+            <column datatype='integer' name='시나리오 1 조건 충족 개수' ordinal='37' />
+            <column datatype='string' name='시나리오 1 클린 뷰티 등급' ordinal='38' />
+            <column datatype='integer' name='시나리오 2 조건 충족 개수' ordinal='39' />
+            <column datatype='string' name='시나리오 2 클린 뷰티 등급' ordinal='40' />
+            <column datatype='integer' name='비건 인증 충족 개수' ordinal='41' />
+            <column datatype='integer' name='비건 인증' ordinal='42' />
+            <column datatype='integer' name='크루얼티프리 인증 충족 개수' ordinal='43' />
+            <column datatype='integer' name='크루얼티프리 인증' ordinal='44' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1qwy4dt1q1b67217x6hfi0uz2aym' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:AS7308:no:A1:AS7308:0' header='yes' outcome='6'>
+            <column datatype='string' name='화장품명' ordinal='0' />
+            <column datatype='string' name='브랜드명' ordinal='1' />
+            <column datatype='string' name='브랜드 내 순위' ordinal='2' />
+            <column datatype='string' name='용량' ordinal='3' />
+            <column datatype='integer' name='가격' ordinal='4' />
+            <column datatype='real' name='평점' ordinal='5' />
+            <column datatype='integer' name='만족도' ordinal='6' />
+            <column datatype='integer' name='리뷰 수' ordinal='7' />
+            <column datatype='string' name='카테고리' ordinal='8' />
+            <column datatype='string' name='카테고리 내 순위' ordinal='9' />
+            <column datatype='integer' name='위험도 미정 성분 개수' ordinal='10' />
+            <column datatype='integer' name='낮은 위험도 성분 개수' ordinal='11' />
+            <column datatype='integer' name='중간 위험도 성분 개수' ordinal='12' />
+            <column datatype='integer' name='높은 위험도 성분 개수' ordinal='13' />
+            <column datatype='string' name='키워드 카테고리' ordinal='14' />
+            <column datatype='integer' name='총 성분 개수' ordinal='15' />
+            <column datatype='integer' name='지성 피부에 좋은 성분 개수' ordinal='16' />
+            <column datatype='integer' name='건성 피부에 좋은 성분 개수' ordinal='17' />
+            <column datatype='integer' name='민감성 피부에 좋은 성분 개수' ordinal='18' />
+            <column datatype='integer' name='여드름 피부에 좋은 성분 개수' ordinal='19' />
+            <column datatype='integer' name='지성 피부에 나쁜 성분 개수' ordinal='20' />
+            <column datatype='integer' name='건성 피부에 나쁜 성분 개수' ordinal='21' />
+            <column datatype='integer' name='민감성 피부에 나쁜 성분 개수' ordinal='22' />
+            <column datatype='integer' name='여드름 피부에 나쁜 성분 개수' ordinal='23' />
+            <column datatype='integer' name='아토피 피부에 유해한 성분 개수' ordinal='24' />
+            <column datatype='integer' name='알레르기 유발 성분 개수' ordinal='25' />
+            <column datatype='integer' name='올리브영 선정 유해 성분 개수' ordinal='26' />
+            <column datatype='integer' name='천연 및 유기농 성분 개수' ordinal='27' />
+            <column datatype='integer' name='동물실험을 하지 않는 브랜드' ordinal='28' />
+            <column datatype='integer' name='동물성 성분 개수' ordinal='29' />
+            <column datatype='integer' name='공병 수거를 하는 브랜드' ordinal='30' />
+            <column datatype='integer' name='A 조건 충족 여부' ordinal='31' />
+            <column datatype='integer' name='B 조건 충족 여부' ordinal='32' />
+            <column datatype='integer' name='C 조건 충족 여부' ordinal='33' />
+            <column datatype='integer' name='D 조건 충족 여부' ordinal='34' />
+            <column datatype='integer' name='E 조건 충족 여부' ordinal='35' />
+            <column datatype='integer' name='F 조건 충족 여부' ordinal='36' />
+            <column datatype='integer' name='시나리오 1 조건 충족 개수' ordinal='37' />
+            <column datatype='string' name='시나리오 1 클린 뷰티 등급' ordinal='38' />
+            <column datatype='integer' name='시나리오 2 조건 충족 개수' ordinal='39' />
+            <column datatype='string' name='시나리오 2 클린 뷰티 등급' ordinal='40' />
+            <column datatype='integer' name='비건 인증 충족 개수' ordinal='41' />
+            <column datatype='integer' name='비건 인증' ordinal='42' />
+            <column datatype='integer' name='크루얼티프리 인증 충족 개수' ordinal='43' />
+            <column datatype='integer' name='크루얼티프리 인증' ordinal='44' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AS7308:no:A1:AS7308:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>화장품명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[화장품명]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>화장품명</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>브랜드명</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[브랜드명]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>브랜드명</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>브랜드 내 순위</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[브랜드 내 순위]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>브랜드 내 순위</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>용량</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[용량]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>용량</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>가격</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[가격]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>가격</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>평점</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[평점]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>평점</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>만족도</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[만족도]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>만족도</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>리뷰 수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[리뷰 수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>리뷰 수</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>카테고리</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[카테고리]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>카테고리</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>카테고리 내 순위</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[카테고리 내 순위]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>카테고리 내 순위</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>위험도 미정 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[위험도 미정 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>위험도 미정 성분 개수</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>낮은 위험도 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[낮은 위험도 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>낮은 위험도 성분 개수</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>중간 위험도 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[중간 위험도 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>중간 위험도 성분 개수</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>높은 위험도 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[높은 위험도 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>높은 위험도 성분 개수</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>키워드 카테고리</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[키워드 카테고리]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>키워드 카테고리</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>총 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[총 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>총 성분 개수</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>지성 피부에 좋은 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[지성 피부에 좋은 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>지성 피부에 좋은 성분 개수</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>건성 피부에 좋은 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[건성 피부에 좋은 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>건성 피부에 좋은 성분 개수</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>민감성 피부에 좋은 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[민감성 피부에 좋은 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>민감성 피부에 좋은 성분 개수</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>여드름 피부에 좋은 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[여드름 피부에 좋은 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>여드름 피부에 좋은 성분 개수</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>지성 피부에 나쁜 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[지성 피부에 나쁜 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>지성 피부에 나쁜 성분 개수</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>건성 피부에 나쁜 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[건성 피부에 나쁜 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>건성 피부에 나쁜 성분 개수</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>민감성 피부에 나쁜 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[민감성 피부에 나쁜 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>민감성 피부에 나쁜 성분 개수</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>여드름 피부에 나쁜 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[여드름 피부에 나쁜 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>여드름 피부에 나쁜 성분 개수</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>아토피 피부에 유해한 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[아토피 피부에 유해한 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>아토피 피부에 유해한 성분 개수</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>알레르기 유발 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[알레르기 유발 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>알레르기 유발 성분 개수</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>올리브영 선정 유해 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[올리브영 선정 유해 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>올리브영 선정 유해 성분 개수</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>천연 및 유기농 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[천연 및 유기농 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>천연 및 유기농 성분 개수</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>동물실험을 하지 않는 브랜드</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[동물실험을 하지 않는 브랜드]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>동물실험을 하지 않는 브랜드</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>동물성 성분 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[동물성 성분 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>동물성 성분 개수</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>공병 수거를 하는 브랜드</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[공병 수거를 하는 브랜드]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>공병 수거를 하는 브랜드</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>A 조건 충족 여부</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[A 조건 충족 여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>A 조건 충족 여부</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>B 조건 충족 여부</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[B 조건 충족 여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>B 조건 충족 여부</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>C 조건 충족 여부</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[C 조건 충족 여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>C 조건 충족 여부</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>D 조건 충족 여부</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[D 조건 충족 여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>D 조건 충족 여부</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>E 조건 충족 여부</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[E 조건 충족 여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>E 조건 충족 여부</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F 조건 충족 여부</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F 조건 충족 여부]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F 조건 충족 여부</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>시나리오 1 조건 충족 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[시나리오 1 조건 충족 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>시나리오 1 조건 충족 개수</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>시나리오 1 클린 뷰티 등급</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[시나리오 1 클린 뷰티 등급]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>시나리오 1 클린 뷰티 등급</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>시나리오 2 조건 충족 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[시나리오 2 조건 충족 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>시나리오 2 조건 충족 개수</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>시나리오 2 클린 뷰티 등급</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[시나리오 2 클린 뷰티 등급]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>시나리오 2 클린 뷰티 등급</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LKO_RKR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>비건 인증 충족 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[비건 인증 충족 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>비건 인증 충족 개수</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>비건 인증</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[비건 인증]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>비건 인증</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>크루얼티프리 인증 충족 개수</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[크루얼티프리 인증 충족 개수]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>크루얼티프리 인증 충족 개수</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>크루얼티프리 인증</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[크루얼티프리 인증]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>크루얼티프리 인증</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;대한민국&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_44CCB6AC15B84EEEA88E91C806BC2D31'>
+            <properties context=''>
+              <relation connection='excel-direct.1qwy4dt1q1b67217x6hfi0uz2aym' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:AS7308:no:A1:AS7308:0' header='yes' outcome='6'>
+                  <column datatype='string' name='화장품명' ordinal='0' />
+                  <column datatype='string' name='브랜드명' ordinal='1' />
+                  <column datatype='string' name='브랜드 내 순위' ordinal='2' />
+                  <column datatype='string' name='용량' ordinal='3' />
+                  <column datatype='integer' name='가격' ordinal='4' />
+                  <column datatype='real' name='평점' ordinal='5' />
+                  <column datatype='integer' name='만족도' ordinal='6' />
+                  <column datatype='integer' name='리뷰 수' ordinal='7' />
+                  <column datatype='string' name='카테고리' ordinal='8' />
+                  <column datatype='string' name='카테고리 내 순위' ordinal='9' />
+                  <column datatype='integer' name='위험도 미정 성분 개수' ordinal='10' />
+                  <column datatype='integer' name='낮은 위험도 성분 개수' ordinal='11' />
+                  <column datatype='integer' name='중간 위험도 성분 개수' ordinal='12' />
+                  <column datatype='integer' name='높은 위험도 성분 개수' ordinal='13' />
+                  <column datatype='string' name='키워드 카테고리' ordinal='14' />
+                  <column datatype='integer' name='총 성분 개수' ordinal='15' />
+                  <column datatype='integer' name='지성 피부에 좋은 성분 개수' ordinal='16' />
+                  <column datatype='integer' name='건성 피부에 좋은 성분 개수' ordinal='17' />
+                  <column datatype='integer' name='민감성 피부에 좋은 성분 개수' ordinal='18' />
+                  <column datatype='integer' name='여드름 피부에 좋은 성분 개수' ordinal='19' />
+                  <column datatype='integer' name='지성 피부에 나쁜 성분 개수' ordinal='20' />
+                  <column datatype='integer' name='건성 피부에 나쁜 성분 개수' ordinal='21' />
+                  <column datatype='integer' name='민감성 피부에 나쁜 성분 개수' ordinal='22' />
+                  <column datatype='integer' name='여드름 피부에 나쁜 성분 개수' ordinal='23' />
+                  <column datatype='integer' name='아토피 피부에 유해한 성분 개수' ordinal='24' />
+                  <column datatype='integer' name='알레르기 유발 성분 개수' ordinal='25' />
+                  <column datatype='integer' name='올리브영 선정 유해 성분 개수' ordinal='26' />
+                  <column datatype='integer' name='천연 및 유기농 성분 개수' ordinal='27' />
+                  <column datatype='integer' name='동물실험을 하지 않는 브랜드' ordinal='28' />
+                  <column datatype='integer' name='동물성 성분 개수' ordinal='29' />
+                  <column datatype='integer' name='공병 수거를 하는 브랜드' ordinal='30' />
+                  <column datatype='integer' name='A 조건 충족 여부' ordinal='31' />
+                  <column datatype='integer' name='B 조건 충족 여부' ordinal='32' />
+                  <column datatype='integer' name='C 조건 충족 여부' ordinal='33' />
+                  <column datatype='integer' name='D 조건 충족 여부' ordinal='34' />
+                  <column datatype='integer' name='E 조건 충족 여부' ordinal='35' />
+                  <column datatype='integer' name='F 조건 충족 여부' ordinal='36' />
+                  <column datatype='integer' name='시나리오 1 조건 충족 개수' ordinal='37' />
+                  <column datatype='string' name='시나리오 1 클린 뷰티 등급' ordinal='38' />
+                  <column datatype='integer' name='시나리오 2 조건 충족 개수' ordinal='39' />
+                  <column datatype='string' name='시나리오 2 클린 뷰티 등급' ordinal='40' />
+                  <column datatype='integer' name='비건 인증 충족 개수' ordinal='41' />
+                  <column datatype='integer' name='비건 인증' ordinal='42' />
+                  <column datatype='integer' name='크루얼티프리 인증 충족 개수' ordinal='43' />
+                  <column datatype='integer' name='크루얼티프리 인증' ordinal='44' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='브랜드별  리뷰수 순위 차트'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1(클린뷰티_적용_최종 데이터셋_EDA용_2022_11_24)' name='federated.1yf154z1m30c2g16g5jvx1gp07p1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1yf154z1m30c2g16g5jvx1gp07p1'>
+            <column-instance column='[브랜드명]' derivation='None' name='[none:브랜드명:nk]' pivot='key' type='nominal' />
+            <column-instance column='[리뷰 수]' derivation='Sum' name='[sum:리뷰 수:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[만족도]' derivation='Sum' name='[sum:만족도:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[리뷰 수]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[만족도]' role='measure' type='quantitative' />
+            <column datatype='string' name='[브랜드명]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1yf154z1m30c2g16g5jvx1gp07p1].[none:브랜드명:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1yf154z1m30c2g16g5jvx1gp07p1].[sum:리뷰 수:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1yf154z1m30c2g16g5jvx1gp07p1].[sum:만족도:qk]' palette='gray_warm_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1yf154z1m30c2g16g5jvx1gp07p1].[sum:만족도:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1yf154z1m30c2g16g5jvx1gp07p1].[none:브랜드명:nk]</rows>
+        <cols>[federated.1yf154z1m30c2g16g5jvx1gp07p1].[sum:리뷰 수:qk]</cols>
+      </table>
+      <simple-id uuid='{858A8FCC-2D31-43F6-A7C8-FE7DCB343923}' />
+    </worksheet>
+    <worksheet name='시트 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9E594426-C357-471D-8FE4-64C68885BCAF}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='브랜드별  리뷰수 순위 차트' tab-color='#17927d'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1yf154z1m30c2g16g5jvx1gp07p1].[sum:만족도:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1yf154z1m30c2g16g5jvx1gp07p1].[none:브랜드명:nk]</field>
+            <field>[federated.1yf154z1m30c2g16g5jvx1gp07p1].[sum:만족도:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{17AB1EA1-A65E-41E4-9783-F046AEF5EA7A}' />
+    </window>
+    <window class='worksheet' name='시트 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F8322D71-5788-4F1E-AF2B-16153B873DBA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='브랜드별  리뷰수 순위 차트' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
